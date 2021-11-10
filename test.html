@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" type="text/css" href="./css/swiper-bundle.min.css"/>
+	<link rel="stylesheet" type="text/css" href="./css/topStrong/topStrong-index.css"/>
+	<!-- 浏览器页签图标 -->
+	<link rel="shortcut icon" type="image/x-icon" href="./images/topStrong/USDT.png"/>
+	<title>Topstrong</title>
+</head>
+<body>
+	<header>
+	<div class="head">
+		<img src="./images/topStrong/logo.png" >	
+	</div>
+	<nav>
+		<ul>
+			<li><a href="#">走进顶固</a></li>
+			<li><a href="#">全屋定制</a></li>
+			<li><a href="#">安全智能锁</a></li>
+			<li><a href="#">集创门窗</a></li>
+			<li><a href="#">顶固工程</a></li>
+			<li><a href="#">家装灵感</a></li>
+			<li><a href="#">加盟合作</a></li>
+			<li><a href="#">EN</a></li>
+		</ul>
+	</nav>
+	<div class="swiper-container">
+	    <div class="swiper-wrapper">
+	      <div class="swiper-slide"><a href="#"><img src="./images/topStrong/banner-DG1.jpg" ></a></div>
+	      <div class="swiper-slide"><a href="#"><img src="./images/topStrong/banner-DG2.jpg" ></a></div>
+	      <div class="swiper-slide"><a href="#"><img src="./images/topStrong/banner-DG3.jpg" ></a></div>
+	      <div class="swiper-slide"><a href="#"><img src="./images/topStrong/banner-DG4.jpg" ></a></div>
+	    </div>
+	    <!-- Add Pagination -->
+	    <div class="swiper-pagination"></div>
+	  </div>
+	</header>
+	
+	<section>
+		<div class="chp-center">
+			<div class="chp-center-title">
+				<span>产品中心</span>
+				<span>PRODUCTS CENTER</span>
+			</div>
+			<div class="chp-center-pic">
+				<ul>
+					<a href="#"><li>
+						<div class="chp-center-pic-img">
+							<img src="./images/topStrong/chp-center1.jpg" >
+							
+						</div>
+						<div class="chp-center-pic-p">
+							<span>全屋定制</span>
+							<span>WHOLE HOUSE CUSTOMIZATION</span>
+						</div>
+					</li></a>
+					<a href="#"><li>
+						<div class="chp-center-pic-img">
+							<img src="./images/topStrong/chp-center2.jpg" >
+						</div>
+						<div class="chp-center-pic-p">
+							<span>安全智能锁</span>
+							<span>SAFETY DOOR LOCK</span>
+						</div>
+					</li></a>
+					<a href="#"><li>
+						<div class="chp-center-pic-img">
+							<img src="./images/topStrong/chp-center3.jpg" >
+						</div>
+						<div class="chp-center-pic-p">
+							<span>集创门窗</span>
+							<span>DOORS AND WINDOWS</span>
+						</div>
+					</li></a>
+				</ul>
+			</div>
+		</div>
+	</section>
+</body>
+<script src="./js/swiper-bundle.min.js" type="text/javascript" charset="utf-8"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+      direction: 'vertical',
+	  effect: 'fade',
+	  fadeEffect: {
+	      crossFade: true,
+	  },
+	  autoplay:{
+		  delay: 5000
+	  },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+	  navigation: {
+	    nextEl: '.swiper-button-next',
+	    prevEl: '.swiper-button-prev',
+	  },
+    });
+  </script>
+</html>
